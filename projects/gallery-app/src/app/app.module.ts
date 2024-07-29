@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {NgxGalleryModule} from '@kolkov/ngx-gallery';
-
+import { NgxGalleryModule } from '@oxycoder/ngx-gallery';
+import { provideAnimations } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,9 @@ import {NgxGalleryModule} from '@kolkov/ngx-gallery';
     NgxGalleryModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    provideAnimations(),
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

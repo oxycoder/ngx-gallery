@@ -31,7 +31,7 @@ export class CustomHammerConfig extends HammerGestureConfig  {
   imports: [ CommonModule ],
   exports: [NgxGalleryComponent],
   providers: [
-    { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }
+    { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig },
   ]
 })
 export class NgxGalleryModule {

@@ -1,21 +1,21 @@
 # NgxGallery
 A simple native gallery component for Angular 8+ and 13+.
 
-[![npm version](https://badge.fury.io/js/%40kolkov%2Fngx-gallery.svg)](https://badge.fury.io/js/%40kolkov%2Fngx-gallery)
-[![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/kolkov-ngx-gallery)
-[![Build Status](https://travis-ci.com/kolkov/ngx-gallery.svg?branch=master)](https://travis-ci.com/kolkov/ngx-gallery)
-[![npm](https://img.shields.io/npm/dw/@kolkov/ngx-gallery.svg)](https://www.npmjs.com/package/@kolkov/ngx-gallery)
-[![](https://data.jsdelivr.com/v1/package/npm/@kolkov/ngx-gallery/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@kolkov/ngx-gallery)
-[![Coverage Status](https://coveralls.io/repos/github/kolkov/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/kolkov/ngx-gallery?branch=master)
-[![dependencies Status](https://david-dm.org/kolkov/ngx-gallery/status.svg)](https://david-dm.org/kolkov/ngx-gallery)
-[![devDependencies Status](https://david-dm.org/kolkov/ngx-gallery/dev-status.svg)](https://david-dm.org/kolkov/ngx-gallery?type=dev)
-[![codecov](https://codecov.io/gh/kolkov/ngx-gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/kolkov/ngx-gallery)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
+[![npm version](https://badge.fury.io/js/%40oxycoder%2Fngx-gallery.svg)](https://badge.fury.io/js/%40oxycoder%2Fngx-gallery)
+[![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/oxycoder-ngx-gallery)
+[![Build Status](https://travis-ci.com/oxycoder/ngx-gallery.svg?branch=master)](https://travis-ci.com/oxycoder/ngx-gallery)
+[![npm](https://img.shields.io/npm/dw/@oxycoder/ngx-gallery.svg)](https://www.npmjs.com/package/@oxycoder/ngx-gallery)
+[![](https://data.jsdelivr.com/v1/package/npm/@oxycoder/ngx-gallery/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@oxycoder/ngx-gallery)
+[![Coverage Status](https://coveralls.io/repos/github/oxycoder/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/oxycoder/ngx-gallery?branch=master)
+[![dependencies Status](https://david-dm.org/oxycoder/ngx-gallery/status.svg)](https://david-dm.org/oxycoder/ngx-gallery)
+[![devDependencies Status](https://david-dm.org/oxycoder/ngx-gallery/dev-status.svg)](https://david-dm.org/oxycoder/ngx-gallery?type=dev)
+[![codecov](https://codecov.io/gh/oxycoder/ngx-gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/oxycoder/ngx-gallery)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Andreyoxycoder)
 
 ## Demo
 Demo is here [demo][demo]
 
-Working code for this demo at stackblitz [example](https://stackblitz.com/edit/kolkov-ngx-gallery)
+Working code for this demo at stackblitz [example](https://stackblitz.com/edit/oxycoder-ngx-gallery)
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Working code for this demo at stackblitz [example](https://stackblitz.com/edit/k
 Install via [npm][npm] package manager 
 
 ```bash
-npm install @kolkov/ngx-gallery --save
+npm install @oxycoder/ngx-gallery --save
 ```
 ### Versions
 
@@ -37,7 +37,7 @@ Import `ngx-gallery` module
 
 ```js
 import { HttpClientModule} from '@angular/common/http';
-import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import { NgxGalleryModule } from '@oxycoder/ngx-gallery';
 
 @NgModule({
   imports: [ HttpClientModule, NgxGalleryModule ]
@@ -54,9 +54,9 @@ where
 
 ```
 import {Component, OnInit} from '@angular/core';
-import {NgxGalleryOptions} from '@kolkov/ngx-gallery';
-import {NgxGalleryImage} from '@kolkov/ngx-gallery';
-import {NgxGalleryAnimation} from '@kolkov/ngx-gallery';
+import {NgxGalleryOptions} from '@oxycoder/ngx-gallery';
+import {NgxGalleryImage} from '@oxycoder/ngx-gallery';
+import {NgxGalleryAnimation} from '@oxycoder/ngx-gallery';
 
 @Component({
   selector: 'app-root',
@@ -304,21 +304,19 @@ ngx-gallery/
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/kolkov/ngx-gallery/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/oxycoder/ngx-gallery/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Editor preferences are available in the [editor config](https://github.com/kolkov/ngx-gallery/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+Editor preferences are available in the [editor config](https://github.com/oxycoder/ngx-gallery/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
 ## Versioning
 
 For transparency into our release cycle and in striving to maintain backward compatibility, NgxGallery is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-See [the Releases section of our project](https://github.com/kolkov/ngx-gallery/releases) for changelogs for each release version.
+See [the Releases section of our project](https://github.com/oxycoder/ngx-gallery/releases) for changelogs for each release version.
 
 ## Creators
 
-**Andrey Kolkov**
-
-* <https://github.com/kolkov>
+**Andrey kolkov**
 
 ## Credits
 
@@ -327,8 +325,8 @@ This library is being fully rewritten for next Angular versions from original ab
 
 ## Donate
 
-If you like my work, and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
+If you like my work, and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Andreyoxycoder)
 
 [npm]: https://www.npmjs.com/
-[demo]: https://kolkov-ngx-gallery.stackblitz.io/
-[example]: https://stackblitz.com/edit/kolkov-ngx-gallery
+[demo]: https://oxycoder-ngx-gallery.stackblitz.io/
+[example]: https://stackblitz.com/edit/oxycoder-ngx-gallery

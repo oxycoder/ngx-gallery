@@ -1,13 +1,13 @@
 {
-  "name": "@oxycoder/ngx-gallery",
-  "version": "18.0.0",
+  "name": "@oxyvn/ngx-gallery",
+  "version": "18.0.1",
   "description": "A simple responsive native gallery component for Angular 8+ and 13+.",
   "author": "Andrey kolkov",
-  "repository": "https://github.com/oxycoder/ngx-gallery",
+  "repository": "https://github.com/oxyvn/ngx-gallery",
   "license": "MIT",
   "private": false,
   "bugs": {
-    "url": "https://github.com/oxycoder/ngx-gallery/issues"
+    "url": "https://github.com/oxyvn/ngx-gallery/issues"
   },
   "peerDependencies": {
     "@angular/common": ">=13.0.0",

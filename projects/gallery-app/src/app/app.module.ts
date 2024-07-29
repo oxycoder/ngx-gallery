@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgxGalleryModule } from '@oxycoder/ngx-gallery';
+import { NgxGalleryModule } from '@oxyvn/ngx-gallery';
 import { provideAnimations } from '@angular/platform-browser/animations';
 
 @NgModule({

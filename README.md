@@ -1,21 +1,21 @@
 # NgxGallery
 A simple native gallery component for Angular 8+ and 13+.
 
-[![npm version](https://badge.fury.io/js/%40oxycoder%2Fngx-gallery.svg)](https://badge.fury.io/js/%40oxycoder%2Fngx-gallery)
-[![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/oxycoder-ngx-gallery)
-[![Build Status](https://travis-ci.com/oxycoder/ngx-gallery.svg?branch=master)](https://travis-ci.com/oxycoder/ngx-gallery)
-[![npm](https://img.shields.io/npm/dw/@oxycoder/ngx-gallery.svg)](https://www.npmjs.com/package/@oxycoder/ngx-gallery)
-[![](https://data.jsdelivr.com/v1/package/npm/@oxycoder/ngx-gallery/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@oxycoder/ngx-gallery)
-[![Coverage Status](https://coveralls.io/repos/github/oxycoder/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/oxycoder/ngx-gallery?branch=master)
-[![dependencies Status](https://david-dm.org/oxycoder/ngx-gallery/status.svg)](https://david-dm.org/oxycoder/ngx-gallery)
-[![devDependencies Status](https://david-dm.org/oxycoder/ngx-gallery/dev-status.svg)](https://david-dm.org/oxycoder/ngx-gallery?type=dev)
-[![codecov](https://codecov.io/gh/oxycoder/ngx-gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/oxycoder/ngx-gallery)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Andreyoxycoder)
+[![npm version](https://badge.fury.io/js/%40oxyvn%2Fngx-gallery.svg)](https://badge.fury.io/js/%40oxyvn%2Fngx-gallery)
+[![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/oxyvn-ngx-gallery)
+[![Build Status](https://travis-ci.com/oxyvn/ngx-gallery.svg?branch=master)](https://travis-ci.com/oxyvn/ngx-gallery)
+[![npm](https://img.shields.io/npm/dw/@oxyvn/ngx-gallery.svg)](https://www.npmjs.com/package/@oxyvn/ngx-gallery)
+[![](https://data.jsdelivr.com/v1/package/npm/@oxyvn/ngx-gallery/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@oxyvn/ngx-gallery)
+[![Coverage Status](https://coveralls.io/repos/github/oxyvn/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/oxyvn/ngx-gallery?branch=master)
+[![dependencies Status](https://david-dm.org/oxyvn/ngx-gallery/status.svg)](https://david-dm.org/oxyvn/ngx-gallery)
+[![devDependencies Status](https://david-dm.org/oxyvn/ngx-gallery/dev-status.svg)](https://david-dm.org/oxyvn/ngx-gallery?type=dev)
+[![codecov](https://codecov.io/gh/oxyvn/ngx-gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/oxyvn/ngx-gallery)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Andreyoxyvn)
 
 ## Demo
 Demo is here [demo][demo]
 
-Working code for this demo at stackblitz [example](https://stackblitz.com/edit/oxycoder-ngx-gallery)
+Working code for this demo at stackblitz [example](https://stackblitz.com/edit/oxyvn-ngx-gallery)
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Working code for this demo at stackblitz [example](https://stackblitz.com/edit/o
 Install via [npm][npm] package manager 
 
 ```bash
-npm install @oxycoder/ngx-gallery --save
+npm install @oxyvn/ngx-gallery --save
 ```
 ### Versions
 
@@ -37,7 +37,7 @@ Import `ngx-gallery` module
 
 ```js
 import { HttpClientModule} from '@angular/common/http';
-import { NgxGalleryModule } from '@oxycoder/ngx-gallery';
+import { NgxGalleryModule } from '@oxyvn/ngx-gallery';
 
 @NgModule({
   imports: [ HttpClientModule, NgxGalleryModule ]
@@ -54,9 +54,9 @@ where
 
 ```
 import {Component, OnInit} from '@angular/core';
-import {NgxGalleryOptions} from '@oxycoder/ngx-gallery';
-import {NgxGalleryImage} from '@oxycoder/ngx-gallery';
-import {NgxGalleryAnimation} from '@oxycoder/ngx-gallery';
+import {NgxGalleryOptions} from '@oxyvn/ngx-gallery';
+import {NgxGalleryImage} from '@oxyvn/ngx-gallery';
+import {NgxGalleryAnimation} from '@oxyvn/ngx-gallery';
 
 @Component({
   selector: 'app-root',
@@ -304,15 +304,15 @@ ngx-gallery/
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/oxycoder/ngx-gallery/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/oxyvn/ngx-gallery/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Editor preferences are available in the [editor config](https://github.com/oxycoder/ngx-gallery/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+Editor preferences are available in the [editor config](https://github.com/oxyvn/ngx-gallery/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
 ## Versioning
 
 For transparency into our release cycle and in striving to maintain backward compatibility, NgxGallery is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-See [the Releases section of our project](https://github.com/oxycoder/ngx-gallery/releases) for changelogs for each release version.
+See [the Releases section of our project](https://github.com/oxyvn/ngx-gallery/releases) for changelogs for each release version.
 
 ## Creators
 
@@ -325,8 +325,8 @@ This library is being fully rewritten for next Angular versions from original ab
 
 ## Donate
 
-If you like my work, and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Andreyoxycoder)
+If you like my work, and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Andreyoxyvn)
 
 [npm]: https://www.npmjs.com/
-[demo]: https://oxycoder-ngx-gallery.stackblitz.io/
-[example]: https://stackblitz.com/edit/oxycoder-ngx-gallery
+[demo]: https://oxyvn-ngx-gallery.stackblitz.io/
+[example]: https://stackblitz.com/edit/oxyvn-ngx-gallery
